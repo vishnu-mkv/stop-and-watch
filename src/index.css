@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary {
+  @apply px-4 py-2 font-semibold text-white bg-slate-700 rounded-md shadow-md hover:bg-blue-600;
+}
+
+.btn-secondary {
+  @apply px-4 py-2 font-semibold text-white bg-red-600 rounded-md shadow-md hover:bg-blue-600;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
